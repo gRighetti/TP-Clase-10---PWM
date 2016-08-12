@@ -114,6 +114,10 @@ void BSP_Init(void) {
 	HAL_TIM_PWM_Start(&TIM4_Handle, TIM_CHANNEL_2);
 	HAL_TIM_PWM_Start(&TIM4_Handle, TIM_CHANNEL_3);
 	HAL_TIM_PWM_Start(&TIM4_Handle, TIM_CHANNEL_4);
+
+
+
+
 }
 
 uint32_t Get_SW_State(void) {
